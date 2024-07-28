@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="42" height="32" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="162">
+ <properties>
+  <property name="AmbientLight" value="100 100 45"/>
+  <property name="Warp" value="3 0 Greenhouse 36 23 4 0 Greenhouse 37 23"/>
+ </properties>
+ <tileset firstgid="1" name="paths" tilewidth="16" tileheight="16" tilecount="64" columns="4">
+  <image source="paths" width="64" height="256"/>
+ </tileset>
+ <tileset firstgid="65" name="untitled tile sheet" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior" width="512" height="1088"/>
+  <tile id="2075">
+   <properties>
+    <property name="Diggable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="2076">
+   <properties>
+    <property name="Diggable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="2107">
+   <properties>
+    <property name="Diggable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="2108">
+   <properties>
+    <property name="Diggable" value="T"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="2241" name="z_walls_and_floors" tilewidth="16" tileheight="16" tilecount="688" columns="16">
+  <image source="walls_and_floors" width="256" height="688"/>
+ </tileset>
+ <tileset firstgid="2929" name="z_CarolineGreenhouseTiles" tilewidth="16" tileheight="16" tilecount="128" columns="8">
+  <image source="CarolineGreenhouseTiles" width="128" height="256"/>
+ </tileset>
+ <tileset firstgid="3057" name="z_townInterior_2" tilewidth="16" tileheight="16" tilecount="1312" columns="32">
+  <image source="townInterior_2" width="512" height="656"/>
+ </tileset>
+ <layer id="1" name="Back" width="42" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztlktOAkEQhjuTGTFgogdgp1ETr8DWGxgfiUY3HsAEF4qvm8iaxCGuwYFjmPCQHSu4AA+ttrvoyqQVZqY7GRI6+dJV/Zqff2goxpavHbmCtLc063xaZ6zmMfbhKZ08rgNN2dflfIPEdU0ceOrcGhmna0/YYpwCZ0BzU+lswf4OUHQFPG4DPdm35fwXiduauEt0tsg4XXvMotEjOkewfwKUMwIev/PJNcbGngDHMMZxHONMiXcjsia8Vrc/PIY521I6UR+PaR4H9O7ZYewFeAXKjsh98GbXjcYOsOcqbaZATxqgq+kovTzfls9chH3ggOSmdaJ/uj6KzjCmdaKPuj5NOn+/30vgJ2fl58rPNPtZ/sPP6w3474X+24ne23rv//2OxunDtRPWTDw20Q6z6kweJ2m0BsMzdTXZvJzWddjGGXUmj5M0WoPhmbqabF7e1ejMk3eUT/iOaA02++yhmmyyQD7V6CwQnYUEOjtZQddQj62aY+wGqGioEt5ITNcUJXzcz4mzB8DQUI/tDs4O5DPC3OfEvC910pwSyDnUacNP7sklvOerBPD9FUt+zu4+nF2C55zH5GJd7A8s+Yl335c6H2LyKHX6lvzEux8Y0mnLT4x9Q99PW34Osuqu6n6TooJ+fhr2E72kfqIvUXNK37CfQ+JnidxbP0Z+S/zsL4mfP2Rmu4g=
+  </data>
+ </layer>
+ <objectgroup id="2" name="Back">
+  <object id="1" name="TileData" x="48" y="16" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="t"/>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </object>
+  <object id="2" name="TileData" x="64" y="16" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="t"/>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </object>
+  <object id="3" name="TileData" x="48" y="32" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="t"/>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </object>
+  <object id="4" name="TileData" x="64" y="32" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="t"/>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </object>
+  <object id="5" name="TileData" x="48" y="48" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="t"/>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </object>
+  <object id="6" name="TileData" x="64" y="48" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="t"/>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </object>
+  <object id="7" name="TileData" x="48" y="64" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="t"/>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </object>
+  <object id="8" name="TileData" x="64" y="64" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="t"/>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </object>
+  <object id="9" name="TileData" x="64" y="272" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="t"/>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </object>
+  <object id="10" name="TileData" x="80" y="272" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="t"/>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </object>
+  <object id="11" name="TileData" x="400" y="272" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="t"/>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </object>
+  <object id="12" name="TileData" x="416" y="272" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="t"/>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </object>
+  <object id="13" name="TileData" x="64" y="288" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="t"/>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </object>
+  <object id="14" name="TileData" x="80" y="288" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="t"/>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </object>
+  <object id="15" name="TileData" x="400" y="288" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="t"/>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </object>
+  <object id="16" name="TileData" x="416" y="288" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="t"/>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </object>
+  <object id="17" name="TileData" x="64" y="304" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="t"/>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </object>
+  <object id="18" name="TileData" x="80" y="304" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="t"/>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </object>
+  <object id="19" name="TileData" x="400" y="304" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="t"/>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </object>
+  <object id="20" name="TileData" x="416" y="304" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="t"/>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </object>
+  <object id="21" name="TileData" x="64" y="320" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="t"/>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </object>
+  <object id="22" name="TileData" x="80" y="320" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="t"/>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </object>
+  <object id="23" name="TileData" x="400" y="320" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="t"/>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </object>
+  <object id="24" name="TileData" x="416" y="320" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="t"/>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </object>
+  <object id="25" name="TileData" x="528" y="336" width="16" height="16">
+   <properties>
+    <property name="WaterSource" value="T"/>
+   </properties>
+  </object>
+  <object id="26" name="TileData" x="544" y="336" width="16" height="16">
+   <properties>
+    <property name="WaterSource" value="T"/>
+   </properties>
+  </object>
+  <object id="27" name="TileData" x="384" y="384" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </object>
+  <object id="28" name="TileData" x="400" y="384" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </object>
+  <object id="29" name="TileData" x="416" y="384" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </object>
+  <object id="30" name="TileData" x="432" y="384" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </object>
+  <object id="31" name="TileData" x="448" y="384" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </object>
+  <object id="32" name="TileData" x="464" y="384" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </object>
+  <object id="33" name="TileData" x="480" y="384" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </object>
+  <object id="34" name="TileData" x="496" y="384" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </object>
+  <object id="35" name="TileData" x="512" y="384" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </object>
+  <object id="36" name="TileData" x="528" y="384" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </object>
+  <object id="37" name="TileData" x="544" y="384" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </object>
+  <object id="38" name="TileData" x="560" y="384" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </object>
+  <object id="39" name="TileData" x="576" y="384" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </object>
+  <object id="40" name="TileData" x="592" y="384" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </object>
+  <object id="41" name="TileData" x="608" y="384" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </object>
+  <object id="42" name="TileData" x="384" y="400" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </object>
+  <object id="43" name="TileData" x="400" y="400" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </object>
+  <object id="44" name="TileData" x="416" y="400" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </object>
+  <object id="45" name="TileData" x="432" y="400" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </object>
+  <object id="46" name="TileData" x="448" y="400" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </object>
+  <object id="47" name="TileData" x="464" y="400" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </object>
+  <object id="48" name="TileData" x="480" y="400" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </object>
+  <object id="49" name="TileData" x="496" y="400" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </object>
+  <object id="50" name="TileData" x="512" y="400" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </object>
+  <object id="51" name="TileData" x="528" y="400" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </object>
+  <object id="52" name="TileData" x="544" y="400" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </object>
+  <object id="53" name="TileData" x="560" y="400" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </object>
+  <object id="54" name="TileData" x="576" y="400" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </object>
+  <object id="55" name="TileData" x="592" y="400" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </object>
+  <object id="56" name="TileData" x="608" y="400" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </object>
+  <object id="57" name="TileData" x="384" y="416" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </object>
+  <object id="58" name="TileData" x="400" y="416" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </object>
+  <object id="59" name="TileData" x="416" y="416" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </object>
+  <object id="60" name="TileData" x="432" y="416" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </object>
+  <object id="61" name="TileData" x="448" y="416" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </object>
+  <object id="62" name="TileData" x="464" y="416" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </object>
+  <object id="63" name="TileData" x="480" y="416" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </object>
+  <object id="64" name="TileData" x="496" y="416" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </object>
+  <object id="65" name="TileData" x="512" y="416" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </object>
+  <object id="66" name="TileData" x="528" y="416" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </object>
+  <object id="67" name="TileData" x="544" y="416" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </object>
+  <object id="68" name="TileData" x="560" y="416" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </object>
+  <object id="69" name="TileData" x="576" y="416" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </object>
+  <object id="70" name="TileData" x="592" y="416" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </object>
+  <object id="71" name="TileData" x="608" y="416" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </object>
+  <object id="84" name="TileData" x="384" y="480" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </object>
+  <object id="85" name="TileData" x="448" y="480" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </object>
+  <object id="86" name="TileData" x="512" y="480" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </object>
+  <object id="87" name="TileData" x="576" y="480" width="16" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="3" name="Buildings" width="42" height="32">
+  <data encoding="base64" compression="zlib">
+   eJzVl8tL3FAUxs88klwodVN1o3UhUvwfOlanShFcKrgQBBdSEOmi0JUbXdRSBWcUpP+Ej+rWFwh153NbN9bnppW6dar9Lrnh3pvJGGbmBiYHPnJzJvnmyxwm+SVLbmVJVlbZ1pLikvMtlErInNsWUY4RdZOusF6Pz7Pc85/yHIE2kOtU+T1/QquMiiqsNw6NCs+x4kOr8pyC8lBBOe4emq9AC1Ay4c4mX6FHkOdnkfM71KzMvQnrFVzTGukK662TO4tT4Vnu+aU8vZxH0N+0zLmEnMsB8wjrnYhZFITnYJLo0cGCyWP7baIBaMeRvd0U0QdHfsZ7R9ge266nl9Nk8Vnw2UwnzXlGkdNE2ZitI+b7ya7dnGotRpTTtOfHmORciEnO9ZjkPIlJzruY5EzWuZ5nhvzyYJl56MagJ6/WOtdTZTCV7ThP+HkrTEFcZ8rT47rNALbbtKS2rPB9zq0e193jef0PeqXkbMO6IPoFR1+X6j04OtdxhqqW7VQGawJLvITeKTl7+LNf9JuZvi7Va2E613GG8rOdx1Z7ts5dP+xiFvMz2Gv4dwTkzIh+hunrUr03TOc6C99t29LzHDO8sNz1ldLndYn9ffDQAXQIfQMzHCd0BhuC//UzKqo59L5CM9AsNInjOqEuhQ8n0G8E691gO8zKu4e8wHn1UEPK3f+NfH+gW4Xf3qdr817X52PML2n53mGyorh2773DZEWR03vvMFlRvneYrDjwPC/TOdnz2vy/+6s9Jjl7DefMieeEx3W/oCsDuibJdaY9/wOOLR0E
+  </data>
+ </layer>
+ <objectgroup id="4" name="Buildings">
+  <object id="72" name="TileData" x="176" y="352" width="16" height="16">
+   <properties>
+    <property name="Action" value="Billboard 1"/>
+   </properties>
+  </object>
+  <object id="73" name="TileData" x="240" y="352" width="16" height="16">
+   <properties>
+    <property name="Action" value="FarmerFile"/>
+   </properties>
+  </object>
+  <object id="76" name="TileData" x="96" y="336" width="16" height="16">
+   <properties>
+    <property name="Action" value="Arcade_Prairie"/>
+   </properties>
+  </object>
+  <object id="77" name="TileData" x="112" y="336" width="16" height="16">
+   <properties>
+    <property name="Action" value="Arcade_Minecart"/>
+   </properties>
+  </object>
+  <object id="78" name="TileData" x="48" y="336" width="16" height="16">
+   <properties>
+    <property name="Action" value="ColaMachine"/>
+   </properties>
+  </object>
+  <object id="79" name="TileData" x="32" y="336" width="16" height="16">
+   <properties>
+    <property name="Action" value="ColaMachine"/>
+   </properties>
+  </object>
+  <object id="80" name="TileData" x="256" y="352" width="16" height="16">
+   <properties>
+    <property name="Action" value="FarmerFile"/>
+   </properties>
+  </object>
+  <object id="107" name="TileData" x="640" y="240" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;maat.BetterThings_GreenhouseCellar.message&quot;"/>
+   </properties>
+  </object>
+  <object id="108" name="TileData" x="160" y="352" width="16" height="16">
+   <properties>
+    <property name="Action" value="Billboard 3"/>
+   </properties>
+  </object>
+  <object id="110" name="TileData" x="608" y="96" width="32" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;maat.BetterThings_Furnace.message&quot;"/>
+   </properties>
+  </object>
+  <object id="111" name="TileData" x="192" y="352" width="16" height="16">
+   <properties>
+    <property name="Action" value="Billboard 3"/>
+   </properties>
+  </object>
+  <object id="112" name="TileData" x="224" y="352" width="16" height="16">
+   <properties>
+    <property name="Action" value="Jukebox"/>
+   </properties>
+  </object>
+  <object id="113" name="TileData" x="352" y="112" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;maat.BetterThings_Clock.message&quot;"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="5" name="Front" width="42" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztl7tOAkEYhX8uCybGZ9DeUhMTtaFFn0CtLaygEQujovESNAZ8ARMT7byQ6BN4Kawkag0iLvZeas+EIfl3GcICs9k1cJKT3ZnZ/fdjGGYPRESxJvabBFOctWfJn5x2BQNeE7Sv1VB7/VyTUaIpeDqqvjduNK+XiBAlI40182Fr+3Cg8RqnfXXNgW8eXoiqr10ymtfMgjGn4CwwzgNN3/tEkKgIxhKbzzE8exw+Rl9GzudJyDomdIVjXsGpW4tB95/htUzMb9XB+u8FVeB3ryEcaBtOew3hQH1OvepVzvKQxmJQAu+WpKGf81G+L97gMmySdT+pyL52XIU/XarZKmfyzNPqnDTXs+csoQxyyH64sZ9nHifnrdRpPbGWRPa7x9p6YHkwDuaZcG3szJZbTtF+wrUFozaeRb7KwUcB6/rsNLuqxus1P/BMk3He4vyOtZ+xnl/gV7muz3G8gC/hFD5PXmZBzlkcVHOk0b8Jb8nxYeTNEVsO/UXdErvf6W/zC/d9wz+SM4bjNfhubGvFrf2zm5qjiozpR06VxH/AkAv/A//DO06oz6lXujl15fll7EkpeEXuTX6dzzXwrcMbPufcAd8uvOdzTrt4BuvWVVZXd80/rhSlIA==
+  </data>
+ </layer>
+ <objectgroup id="6" name="Front"/>
+ <layer id="7" name="Paths" width="42" height="32">
+  <data encoding="base64" compression="zlib">
+   eJzt1rENACAIRFFa91/YAUxMAFFP/ystoOFAM2DUnO/Rmpl6eEezPbNQ2SNa+0QGvD3JKZRVZVMhR0p7Cf+YzVcmd9G/K/MO6Fp9iyt2DLDKDTdQfd47oC0BKg==
+  </data>
+ </layer>
+ <objectgroup id="8" name="Paths"/>
+ <layer id="9" name="AlwaysFront" width="42" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztzjEKwCAABMEr8jHb6PN8cBKwjLWCM7D9JkmZtJvv6X6ro5Y9PwEAgPP0a/UBAPDnAZ9iA80=
+  </data>
+ </layer>
+ <objectgroup id="10" name="AlwaysFront"/>
+</map>

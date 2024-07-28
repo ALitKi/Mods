@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="36" height="52" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="14">
+ <properties>
+  <property name="DayTiles_asdf" value="Buildings 3 1 15 Buildings 3 2 27 Back 3 4 51 Back 3 5 63"/>
+  <property name="IsGreenhouse" value="T"/>
+  <property name="NightTiles_asdf" value="Buildings 3 1 144 Buildings 3 2 156 Back 3 4 53 Back 3 5 65"/>
+  <property name="ViewportFollowPlayer" type="bool" value="true"/>
+  <property name="Warp" value="9 12 Farm 64 15"/>
+  <property name="asdf" type="bool" value="false"/>
+ </properties>
+ <tileset firstgid="1" name="indoor" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior.png" width="512" height="1088"/>
+  <tile id="2075">
+   <properties>
+    <property name="Diggable" value="T"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="2076">
+   <properties>
+    <property name="Diggable" value="T"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="2107">
+   <properties>
+    <property name="Diggable" value="T"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="2108">
+   <properties>
+    <property name="Diggable" value="T"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="2177" name="untitled tile sheet" tilewidth="16" tileheight="16" tilecount="264" columns="12">
+  <image source="farmhouse_tiles.png" width="192" height="352"/>
+ </tileset>
+ <tileset firstgid="2441" name="walls_and_floors" tilewidth="16" tileheight="16" tilecount="688" columns="16">
+  <image source="walls_and_floors.png" width="256" height="688"/>
+ </tileset>
+ <layer id="1" name="Back" width="36" height="52">
+  <data encoding="base64" compression="zlib">
+   eJztl01uwjAQhZN0Y8dXoKISLRfgZ0NRK/UgcI9GKltELtBbEvUCteVMmeJAxsExCM2Tnp5DxvhjRLDZyyTZR3Sr8rge6djKQ+Kx0U7F9Yde81seEo9BM103V26a+WXgfNZeZUmyztx8EpbnRdeMlZuf2kXgNExveu33zE3gCdEf6H1bXRGpP8DTVme4vvTam8zNe+4PNWP1h5qX9Kc881kv6c853tg8MA4h4NgFfM8QPMUN8ZRX7E+KDNdzaZ023I/BA6qkNfDAdUxVaN00t/7rT31dRWSDNY1Hyp4VICe1cU3fmqj/nqKE3zB8v28NBM2PtfvWq6B5WZt5mId5mOdeeZoE+1ef+pF0w/7lM8dXDznd0B+fOb7CezfFbbXTo/TVUNj/Ythwnjh+/ZRP1Q87fM8Xgn628LE5gyw68lCfbR8vmYd5mId5mId5mOdqPE3nn1Ducv65Jf0CgdR8DA==
+  </data>
+ </layer>
+ <objectgroup id="2" name="Back" visible="0">
+  <object id="1" name="TileData" x="336" y="48" width="16" height="16">
+   <properties>
+    <property name="DefaultBedPosition" value="t"/>
+   </properties>
+  </object>
+  <object id="2" name="TileData" x="64" y="80" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="T"/>
+   </properties>
+  </object>
+  <object id="3" name="TileData" x="144" y="176" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="t"/>
+   </properties>
+  </object>
+  <object id="4" name="TileData" x="224" y="304" width="16" height="16">
+   <properties>
+    <property name="WaterSource" value="T"/>
+   </properties>
+  </object>
+  <object id="5" name="TileData" x="240" y="304" width="16" height="16">
+   <properties>
+    <property name="WaterSource" value="T"/>
+   </properties>
+  </object>
+  <object id="6" name="TileData" x="96" y="544" width="16" height="16">
+   <properties>
+    <property name="WaterSource" value="T"/>
+   </properties>
+  </object>
+  <object id="7" name="TileData" x="112" y="544" width="16" height="16">
+   <properties>
+    <property name="WaterSource" value="T"/>
+   </properties>
+  </object>
+  <object id="8" name="TileData" x="288" y="544" width="16" height="16">
+   <properties>
+    <property name="WaterSource" value="T"/>
+   </properties>
+  </object>
+  <object id="9" name="TileData" x="304" y="544" width="16" height="16">
+   <properties>
+    <property name="WaterSource" value="T"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="3" name="Buildings" width="36" height="52">
+  <data encoding="base64" compression="zlib">
+   eJztmDFOw0AQRScBlE3SBHEEuhCoKUGEPiUtghaJGwDiCFQRNEhpOANUcAkEVIgDcAAK/soeZeWY9do7NgjNl75m5Yz/PNlWvHKfiPoCXobbAX3PhmiJ8m0zduFpN977gVkf4FlH3zsl1V1zxl033qFZn+DZs9eylVR3zRk76Bv04sxZRX1f4DmifHPGAXiG8AY8gjfhLbiMOKtIxpPr8sTqEX6KzJDkuYZvhHiOBXju4QchnlMBnlf4TYjnr8jy3AplXcKHgb2tir4wSXUzYjM5V0JZnt+W8izOt26nderc95lZfC7qln3uBqjb+H86WUkqy66v0mO2T+oZLeIZoo5TjrHD4x4bUTM8fH/szFXsFSYOzyQ9xlyzhniY46xDdN6Z//Zi12bO1RRPqJTHL+XxS3n8Uh6//isPv5td+/aarJ/2oXkZZd61ZXqz+406ZpTpzdtv1MGz1gtzdr8Rep7E9eH9RKh8/XXdr6pSHrkZyiPXW1XKIzdDeeR6q0p55GYoj1xvVZWZEfMduY7vzd+ILX2x
+  </data>
+ </layer>
+ <objectgroup id="4" name="Buildings" visible="0">
+  <object id="10" name="TileData" x="32" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="kitchen"/>
+   </properties>
+  </object>
+  <object id="11" name="TileData" x="48" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="kitchen"/>
+   </properties>
+  </object>
+  <object id="12" name="TileData" x="64" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="kitchen"/>
+   </properties>
+  </object>
+  <object id="13" name="TileData" x="80" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="kitchen"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="5" name="Front" width="36" height="52" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztlkFOwzAQRY0q0yawAsoSKDfJgkOw5CioR0D0AAQBF6D70t6jPUrHwqOYkTOxGyeR6Dzpq47tzPzUkfJzlYZzUJ6ghuFFt5cKrMXtcbnIlLoEXYGmoOus5cO25Ab634LuQDPQ/cB+BEGoeAeVEXs/iD5BX3b9zbOOKp0abj+subG/SF0d2vfEoxCebJ05qHDmHwLv9xHau4lUflIhfv6C75nJEWegtbP2Y+dMRnie9OfJ9FzU5IrHU6VedeWrawrrZanr93zrX099nF/BrG3HSu3G1fXQfijih0f88IgfHvHDc4x+MBvS7GqgGXieqCdmCVcInffljRDFfPvNmWCWWI2axwiOzRqCY3pPzFnGvCOHksIPzRNNcPv/4/+TEvHDI354xA+P+OERPzzih0f88MT4oZm9C6XK+kOwB/lvb7E=
+  </data>
+ </layer>
+ <objectgroup id="6" name="Front" visible="0"/>
+ <layer id="7" name="AlwaysFront" width="36" height="52" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzt1rENwjAQheGAQCClgREoaBBLUDAHyigRIzACiEFgEBiFZ+HiCM6liUPB/0lPce4c6ZUpCgAAgN8aKWOlVO5mfouziVLP3/eGsFA2ymn6vQuzrZ7L2Cm3VezSJXRaZ+4S7Mz5MPvcPfT+NLP9wH260MdHHx99fPTx/WOfSrmanM3u0tgdM/YoW5L630ilL/afou3cvJ+K9w0AAACA/rwAyWIa9g==
+  </data>
+ </layer>
+ <objectgroup id="8" name="AlwaysFront" visible="0"/>
+</map>

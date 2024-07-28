@@ -1,0 +1,14 @@
+{
+  "Enabled": false,
+  "WaterNowKey": "F6",
+  "FertilizerType": "Disabled",
+  "DaysToWater": {
+    "Sunday": false,
+    "Monday": false,
+    "Tuesday": false,
+    "Wednesday": false,
+    "Thursday": false,
+    "Friday": false,
+    "Saturday": false
+  }
+}

@@ -1,0 +1,81 @@
+{
+   "Format": "2.1.0",
+   "Changes": [
+      //<>FARM_HOUSE<>//
+      /* Starter FarmHouse */
+      {
+         "Action": "Load",
+         "Target": "Maps/FarmHouse",
+         "FromFile": "assets/Starter.tmx"
+      },
+      /* First FarmHouse Upgrade */
+      {
+         "Action": "Load",
+         "Target": "Maps/FarmHouse1",
+         "FromFile": "assets/First.tmx"
+      },
+      /* First FarmHouse Upgrade Marriage */
+      {
+         "Action": "Load",
+         "Target": "Maps/FarmHouse1_marriage",
+         "FromFile": "assets/First_Marriage.tmx"
+      },
+	  /* Second FarmHouse Upgrade */
+      {
+         "Action": "Load",
+         "Target": "Maps/FarmHouse2",
+         "FromFile": "assets/FarmHouse2.tmx"
+      },
+      /* Second FarmHouse Upgrade Marriage */
+      {
+         "Action": "Load",
+         "Target": "Maps/FarmHouse2_marriage",
+         "FromFile": "assets/FarmHouse2_marriage.tmx"
+      },
+	  /* Second FarmHouse Crubby Add Update */
+	  {
+		  "Action": "Load",
+		  "Target": "Maps/FarmHouse_Cubby_Add",
+		  "FromFile": "assets/FarmHouse_Cubby_Add.tmx"
+	  },
+	  /* Second FarmHouse Crubby Remove Update */
+	  {
+		  "Action": "Load",
+		  "Target": "Maps/FarmHouse_Cubby_Remove",
+		  "FromFile": "assets/FarmHouse_Cubby_Remove.tmx"
+	  },
+
+      //<>CABINS<>//
+      /* Starter Cabin */
+      {
+         "Action": "Load",
+         "Target": "Maps/Cabin",
+         "FromFile": "assets/Starter.tmx"
+      },
+      /* First Cabin Upgrade */
+      {
+         "Action": "Load",
+         "Target": "Maps/Cabin1",
+         "FromFile": "assets/First.tmx"
+      },
+      /* First Cabin Upgrade Marriage */
+      {
+         "Action": "Load",
+         "Target": "Maps/Cabin1_marriage",
+         "FromFile": "assets/First_Marriage.tmx"
+      },
+      /* Second Cabin Upgrade */
+      {
+         "Action": "Load",
+         "Target": "Maps/Cabin2",
+         "FromFile": "assets/FarmHouse2.tmx"
+      },
+      /* Second Cabin Upgrade Marriage */
+      {
+         "Action": "Load",
+         "Target": "Maps/Cabin2_marriage",
+         "FromFile": "assets/FarmHouse2_marriage.tmx"
+      },
+	  
+	]
+}

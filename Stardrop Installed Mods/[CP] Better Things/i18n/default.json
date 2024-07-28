@@ -1,0 +1,563 @@
+{
+	
+	// GENERIC CONFIG MENU
+	
+      "config.Item1type.name": "Item Type 1",
+	  "config.Item1type.description": "For picking what items needed for crafting. All Itemtypes need a whole number value relating to an object id.",
+      "config.Item1Amount.name": "Item Amount 1",
+	  "config.Item1Amount.description": "For choosing how much of an item you need for crafting. All ItemAmounts need a non-zero value.",
+      "config.Item2type.name": "Item Type 2",
+	  "config.Item2type.description": "For picking what items needed for crafting. All Itemtypes need a whole number value relating to an object id.",
+      "config.Item2Amount.name": "Item Amount 2",
+	  "config.Item2Amount.description": "For choosing how much of an item you need for crafting. All ItemAmounts need a non-zero value.",
+      "config.Item3type.name": "Item Type 3",
+	  "config.Item3type.description": "For picking what items needed for crafting. All Itemtypes need a whole number value relating to an object id.",
+      "config.Item3Amount.name": "Item Amount 3",
+	  "config.Item3Amount.description": "For choosing how much of an item you need for crafting. All ItemAmounts need a non-zero value.",
+      "config.Item4type.name": "Item Type 4",
+	  "config.Item4type.description": "For picking what items needed for crafting. All Itemtypes need a whole number value relating to an object id.",
+      "config.Item4Amount.name": "Item Amount 4",
+      "config.Item4Amount.description": "For choosing how much of an item you need for crafting. All ItemAmounts need a non-zero value.",
+	  
+	  "config.CoffeeItem1type.name": "Item Type 1",
+	  "config.CoffeeItem1type.description": "For picking what items needed for crafting. All Itemtypes need a whole number value relating to an object id.",
+      "config.CoffeeItem1Amount.name": "Item Amount 1",
+	  "config.CoffeeItem1Amount.description": "For choosing how much of an item you need for crafting. All ItemAmounts need a non-zero value.",
+      "config.CoffeeItem2type.name": "Item Type 2",
+	  "config.CoffeeItem2type.description": "For picking what items needed for crafting. All Itemtypes need a whole number value relating to an object id.",
+      "config.CoffeeItem2Amount.name": "Item Amount 2",
+	  "config.CoffeeItem2Amount.description": "For choosing how much of an item you need for crafting. All ItemAmounts need a non-zero value.",
+      "config.CoffeeItem3type.name": "Item Type 3",
+	  "config.CoffeeItem3type.description": "For picking what items needed for crafting. All Itemtypes need a whole number value relating to an object id.",
+      "config.CoffeeItem3Amount.name": "Item Amount 3",
+	  "config.CoffeeItem3Amount.description": "For choosing how much of an item you need for crafting. All ItemAmounts need a non-zero value.",
+      "config.CoffeeItem4type.name": "Item Type 4",
+	  "config.CoffeeItem4type.description": "For picking what items needed for crafting. All Itemtypes need a whole number value relating to an object id.",
+      "config.CoffeeItem4Amount.name": "Item Amount 4",
+      "config.CoffeeItem4Amount.description": "For choosing how much of an item you need for crafting. All ItemAmounts need a non-zero value.",
+	  
+	  "config.EnableRobinSellNewThings.name": "Robin Sells more",
+	  "config.EnableRobinSellNewThings.description": "Allows Robin to sell more furniture and specific items.",
+	  "config.EnableTravelerSellNewThings.name": "Traveler Sells more",
+	  "config.EnableTravelerSellNewThings.description": "Allows the Traveler to sell more seeds and specific items.",
+	  "config.EnableMarnieSellNewThings.name": "Marnie Sells more things",
+	  "config.EnableMarnieSellNewThings.description": "Allows Marnie to sell more machines and specific items.",
+	  "config.EnableDesertTraderSellNewThings.name": "Desert Trader Sells more",
+	  "config.EnableDesertTraderSellNewThings.description": "Allows the Desert Trader to sell more specific items.",
+	  "config.EnableClintSellNewThings.name": "Blacksmith Sells more",
+	  "config.EnableClintSellNewThings.description": "Allows the Blacksmith to sell more ores.",
+	  "config.EnableIslandTraderSellNewThings.name": "Island Trader Sells more",
+	  "config.EnableIslandTraderSellNewThings.description": "Allows the Island Trader to sell more Items.",
+	  
+	  "config.BetterMachines.name": "Machine Modifications",
+	  "config.BetterMachines.description": "Allows certain modifications of this mod on specific Machines and Statues.",
+	  "config.EnableArtifacts.name": "Artifacts in the recycling machine",
+	  "config.EnableArtifacts.description": "Enables artifacts to be recycled in the Recycling Machine.",
+	  
+	  "config.SiloCapacity.name": "Silo Capacity",
+	  "config.SiloCapacity.description": "Capacity that the Silo can support. Default: 8x",
+	  "config.SiloCapacity.values.VanillaCapacity": "Default Capacity",
+	  
+	  "config.MorePets.name": "Additional Pets",
+	  "config.MorePets.description": "If enabled, this option will unlock new pets for adoption at Marnie's Ranch and place them on your farm. Disable to keep only the original pets available.",
+	  
+	  "config.BuildableOnTheIslandFarm.name": "Working more on Ginger Island",
+	  "config.BuildableOnTheIslandFarm.description": "Allows building on Ginger Island at Carpenter's Shop, Wizard and Marnie for Farm Animals(not pets).",
+	  "config.MorePlantableArea.name": "More Plantable Area",
+	  "config.MorePlantableArea.description": "Allows you to plant in certain areas of the island farm. Default: Enabled",
+	  "config.GrowAndSpreadOnDirt.name": "Grow And Spread On Dirt",
+	  "config.GrowAndSpreadOnDirt.description": "Allows grass to grow and spread on the island's farm dirt. Default: Disabled",
+	  
+	  "config.CursorStyle.name": "Cursor Style",
+	  "config.CursorStyle.description": "Change your mouse style in-game. Default: Vanilla",
+	  
+	  "config.BuyableOstriches.name": "Buyable Ostriches",
+	  "config.BuyableOstriches.description": "Allows you to buy Ostriches from Marnie's Animal store.",
+	  "config.BuyableDinosaurs.name": "Buyable Dinosaurs",
+	  "config.BuyableDinosaurs.description": "Allows you to buy Dinosaurs from Marnie's Animal store.",
+	  "config.BuyableBlueChickens.name": "Buyable Blue Chicken",
+	  "config.BuyableBlueChickens.description": "Allows you to buy Blue Chickens at Marnie's animal shop separately from Standard Chickens and without needing friendship hearts with Shane.",
+	  "config.BuyableGoldenChickens.name": "Buyable Golden Chickens",
+	  "config.BuyableGoldenChickens.description": "Allows you to buy Golden Chickens from Marnie's Animal store.",
+	  "config.BuyableAnimalsAlwaysAvailable.name": "Buyable Animals Always Available",
+	  "config.BuyableAnimalsAlwaysAvailable.description": "Requirement to purchase a dinosaur, ostrich, blue chicken and golden chicken removed if activated.",
+	  
+	  "config.WizardBook.name": "Wizard Book",
+	  "config.WizardBook.description": "Allows you to build the Wizard's Book on your Farm.",
+
+	  "config.MoreRecipes.name": "New Recipes",
+	  "config.MoreRecipes.description": "Allows you to add new Crafting and Cooking recipes.",
+	  
+	  "config.NewMissions.name": "New Missions",
+	  "config.NewMissions.description": "If enabled: allows this mod to implement new quests in your game.",
+	  
+	  "config.FruitTree.name": "New Trees",
+	  "config.FruitTree.description": "Allows adding a new trees to the game.",
+	  
+	  "config.NewStore.name": "Add a New Store",
+	  "config.NewStore.description": "Allows adding a new store located in the Saloon.",
+
+	  "config.BlueChickensHaveBlueEggsAndMayo.name": "Blue Chicken Eggs and Mayo",
+	  "config.BlueChickensHaveBlueEggsAndMayo.description": "Allows Blue Chickens to lay Blue-colored eggs and use it to to make Blue Mayonnaise.",
+	  
+	  "config.GoldenChickensHaveBigGoldenEggsAndMayo.name": "Golden Chicken Big Eggs and Mayo",
+	  "config.GoldenChickensHaveBigGoldenEggsAndMayo.description": "Allows Golden Chickens to lay Big Golden Eggs, which can be used to make Golden Mayonnaise.",
+	  
+	  "config.BetterGeodeCrusher.name": "Better Geode Crusher",
+	  "config.BetterGeodeCrusher.description": "Allows you to break the following items in the Geode Crusher: Mysterious Box, Golden Mysterious Box, Artifact Trove, and Golden Coconut.",
+	  
+	  "config.PrismaticShardInCrystalarium.name": "Prismatic Shard in Crystalarium",
+	  "config.PrismaticShardInCrystalarium.description": "Allows you to duplicate the Prismatic Shard in the Crystalarium.",
+	  
+	  "config.BetterMayonnaiseMachine.name": "Better Mayonnaise Machine",
+	  "config.BetterMayonnaiseMachine.description": "Allows you to put the new Eggs(Blue and Golden) in the Mayonnaise Machine.",
+	  
+	  "config.BuyableCookingRecipes.name": "Buyable Cooking Recipes",
+	  "config.BuyableCookingRecipes.description": "Allows you to buy the recipes that are unlocked by friendship with NPCs or in unique events. Buy them at the new shop, located in the Saloon.",
+	  
+	  "config.OstrichMayonnaise.name": "Ostrich Egg Mayonnaise",
+	  "config.OstrichMayonnaise.description": "Allows you to make a new Mayonnaise in the Mayonnaise Machine: Ostrich Egg Mayonnaise",
+	  
+	  "config.Xcoordinate.name": "X Coordinates",
+	  "config.Xcoordinate.description": "X Coordinates for teleporting to your farm using the Minecart. (numbers only)",
+	  "config.Ycoordinate.name": "Y Coordinates",
+	  "config.Ycoordinate.description": "Y Coordinates for teleporting to your farm using the Minecart. (numbers only)",
+	  
+	  "config.DesertFestivalFoods.name": "Desert Festival Foods buyable",
+	  "config.DesertFestivalFoods.description": "Allows you to buy foods from festivals/events at the new store.",
+	  
+	// SECTIONs
+	
+	  "config.section.Sellers.name": "Sellers",
+	  "config.section.Misc.name": "Miscellaneous",
+	  "config.section.MushroomsBoxes.name": "Mushrooms Boxes",
+	  "config.section.CoffeeMakerRecipe.name": "Coffee Maker",
+	  "config.section.Buildings.name": "Buildings",
+	  "config.section.GingerIslandFarmMap.name": "Ginger Island Farm Map",
+	  "config.section.Animals.name": "Animals",
+	  "config.section.Machines.name": "Machines",
+	  "config.section.MinecartSection.name": "Minecarts",
+	  "config.section.CommunityCenter.name": "Community Center",
+	  
+	// ALLOW VALUEs
+	
+	  "config.CursorStyle.values.Vanilla": "Default",
+	  "config.CursorStyle.values.Cat": "Cat",
+	  "config.CursorStyle.values.BlackCat": "Black Cat",
+	  "config.CursorStyle.values.OrangeCat": "Orange Cat",
+	  "config.CursorStyle.values.PinkyCat": "Pinky Cat",
+	  "config.CursorStyle.values.PurpleCat": "Purple Cat",
+	  "config.CursorStyle.values.YellowCat": "Yellow Cat",
+	  "config.CursorStyle.values.Butterfly": "Butterfly",
+	  "config.CursorStyle.values.Rabbit": "Rabbit",
+	  "config.CursorStyle.values.Star": "Star",
+	  "config.CursorStyle.values.StarFruit": "Star Fruit",
+	  "config.CursorStyle.values.Sun": "Sun",
+	  "config.CursorStyle.values.Halter": "Halter",
+	  "config.CursorStyle.values.PointingOut": "Pointing Out",
+	  "config.CursorStyle.values.Penny": "Penny",
+	  "config.CursorStyle.values.AutumnPetal": "Autumn Petal",
+	  "config.CursorStyle.values.4LeafClover": "4 Leaf Clover",
+	  "config.CursorStyle.values.PinkyFlower": "Pinky Flower",
+	  "config.CursorStyle.values.Ghost": "Ghost",
+	  "config.CursorStyle.values.DustSprite": "Dust Sprite",
+	  "config.CursorStyle.values.Crab": "Crab",
+	  "config.CursorStyle.values.Heart": "Heart",
+	  "config.CursorStyle.values.Wine": "Wine",
+	  "config.CursorStyle.values.Axe": "Axe",
+	  "config.CursorStyle.values.Hoe": "Hoe",
+	  "config.CursorStyle.values.Pickaxe": "Pickaxe",
+	  "config.CursorStyle.values.Sword": "Sword",
+	  "config.CursorStyle.values.StardewDev": "Starde Dev",
+	  "config.CursorStyle.values.Kebab": "Kebab",
+	  "config.CursorStyle.values.Staff": "Staff",
+	  "config.CursorStyle.values.WitchHand": "Witch Hand",
+	  
+	// CRAFTING RECIPE
+	  
+      "mushbox": "Mushroom Box",
+	  
+	// DEMETRIUS MAIL
+	  
+      "demetriusbats": "Dear @, ^ It occurs to me that you might be able to fit the mushroom boxes elsewhere, as long as it's dark and damp.^Here's a recipe for them. ^ -Demetrius%item craftingRecipe Mushroom_Box %%[#]Mushroom Box Recipe",
+      "demetriusshrooms": "Dear @, ^ It occurs to me that you might be able to fit more mushroom boxes in that cave.^Here's a recipe for them. ^ -Demetrius%item craftingRecipe Mushroom_Box %%[#]Mushroom Box Recipe",
+	  
+	// COFFE MAKER
+	
+	  "getNewSpecialItem": "\"You've learned how to craft a Coffee Maker!\"",
+	  "evelynmsg": "\"Sorry for the delay in sending the Recipe, I had lost the copy somewhere in my room. ^ - Grandma Evelyn \"",
+	  
+	// GINGER ISLAND FARM
+	  
+	  "GingerIslandFarmName": "Ginger Island Farm",
+	  
+	// BLUE CHICKEN, GOLDEN CHICKEN, DINOSAUR, OSTRICH description
+	  
+	  "dinosaur.description": "Dinosaurs lay one dinosaur egg per week.",
+	  "dinosaur.mail.title": "New Animal for Sale: Dinosaur",
+	  "dinosaur.mail.text": " Good job completing 30 Artifacts in the Museum, take this little bonus gift. ^ Now you can buy dinosaurs from me! For a small price, of course. They produce one egg per week. ^ ^ - Marnie",
+	  "ostrich.mail.title": "New Animal for Sale: Ostrich",
+	  "ostrich.mail.text": " Good job completing the Ginger Island Museum collection, take this little bonus gift. ^ Now you can buy ostriches from me! For a small price, of course. They produce one egg per week. ^ ^ - Marnie",
+	  "blue_chicken.description": "A mature and fed blue chicken produces a blue(if enabled in config), white, or brown Egg every day.",
+	  "golden_chicken.description": "A mature and fed golden chicken produces a Golden Egg every day.",
+	  
+	// WIZARD BOOK
+	
+	  "wizardbookbuild": "Wizard Book",
+      "wizardbook.description": "Allows you to access the Wizard's structure store on your Farm without having to go to your tower.",
+	  
+	// CASINO CALICO
+	
+	 "CassinoCalicoJackLow.name": "Low Stakes CalicoJack Table",
+	  "CassinoCalicoJackLow.description": "Low stakes CalicoJack table at the Calico Casino, bet with moderation.",
+	  "config.BuildableCassinoCalicoJackLow.name": "Casino CalicoJack Table 1",
+	  "config.BuildableCassinoCalicoJackLow.description": "Allows you to build the low stakes CalicoJack table from the Calico Casino on your farm.",
+	
+	  "CassinoCalicoJackHigh.name": "High Stakes CalicoJack Table",
+	  "CassinoCalicoJackHigh.description": "High stakes CalicoJack table at the Calico Casino, bet with moderation.",
+	  "config.BuildableCassinoCalicoJackHigh.name": "Casino CalicoJack Table 2",
+	  "config.BuildableCassinoCalicoJackHigh.description": "Allows you to build the high stakes CalicoJack table from the Calico Casino on your farm.",
+	  
+	  "CassinoCalicoSlotMachines.name": "Slot Machines",
+	  "CassinoCalicoSlotMachines.description": "Betting slot machines from the Calico Casino, bet with moderation.",
+	  "config.BuildableCassinoCalicoSlotMachines.name": "Calico Casino Slot Machines",
+	  "config.BuildableCassinoCalicoSlotMachines.description": "Allows you to build the betting slot machines from the Calico Casino on your farm.",
+	  
+	  "CassinoCalicoBuyQICoins.name": "Mr. Qi's Coin Machine",
+	  "CassinoCalicoBuyQICoins.description": "Converts money into Mr. Qi's Coins for use in the Calico Casino, bet with moderation.",
+	  "config.BuildableCassinoCalicoBuyQICoins.name": "Qi's Coin Machine",
+	  "config.BuildableCassinoCalicoBuyQICoins.description": "Allows you to build Mr. Qi's Coin Machine on your farm, converting your money into Qi Coins to play at the Calico Casino.",
+	  
+	  "CassinoCalicoComputer.name": "Mr. Qi's Computer",
+	  "CassinoCalicoComputer.description": "Displays the statistics from Mr. Qi's Computer at the Calico Casino on your farm.",
+	  "config.BuildableCassinoCalicoComputer.name": "Qi's Computer",
+	  "config.BuildableCassinoCalicoComputer.description": "Allows you to build Mr. Qi's Computer on your farm, so you can view your statistics without leaving home.",
+	  
+	// MINECART
+	
+	  "farm.title": "Farm: ",
+      "config.BuildableMinecart.name": "Buildable Minecart",
+	  "config.BuildableMinecart.description": "Allow you to construct the Minecart on your farm by Robin.",
+	  "minecart.name": "Minecart",
+	  "minecart.description": "Allows you to teleport from the farm to other mine carts.",
+	  "config.MoreTeleportToMinecart.name": "New Teleports Using the Minecart",
+	  "config.MoreTeleportToMinecart.description": "Adds new teleports using the Minecart.",
+	  
+	  "beachteleport.name": "Beach",
+	  "config.BeachMinecart.name": "Beach Minecart",
+	  "config.BeachMinecart.description": "Allows you to teleport to the Beach using the Minecarts.",
+	  
+	  "desertteleport.name": "Desert",
+	  "config.DesertMinecart.name": "Desert Minecart",
+	  "config.DesertMinecart.description": "Allows you to teleport to the Desert using the Minecarts.",
+	  
+	  "forestteleport.name": "Cindersap Forest",
+	  "config.ForestMinecart.name": "Cindersap Forest Minecart",
+	  "config.ForestMinecart.description": "Allows you to teleport to the Cindersap Forest using the Minecarts.",
+	  
+	  "secretwoodsteleport.name": "Secret Woods",
+	  "config.SecretWoodsMinecart.name": "Secret Woods Minecart",
+	  "config.SecretWoodsMinecart.description": "Allows you to teleport to the Secret Woods using the Minecarts.",
+	  
+	  "railroadteleport.name": "Railroad",
+	  "config.RailRoadMinecart.name": "Railroad Minecart",
+	  "config.RailRoadMinecart.description": "Allows you to teleport to the Railroad using the Minecarts.",
+	  
+	  "islandfarmteleport.name": "Island Farm",
+	  "config.IslandFarmMinecart.name": "Island Farm Minecart",
+	  "config.IslandFarmMinecart.description": "Allows you to teleport to the Island Farm using the Minecarts.",
+	  
+    // SALOON RECIPEs DIALOGUEs
+	
+	  "saloonrecipes.1": "What a lovely night for some rain, don't you think?",
+	  "saloonrecipes.2": "Enjoy my recipes and clothes, unique prices! *giggle*",
+	  "saloonrecipes.3": "Watch out for the rain and lightning outside!",
+	  "saloonrecipes.4": "It's such a nice breeze outside, wish I could enjoy it more.",
+	  "saloonrecipes.5": "It's a very pleasant night tonight, don't you think?",
+	  "saloonrecipes.6": "It's festival day today, I really enjoy leaving the village sometimes!",
+	  "saloonrecipes.7": "There's snow everywhere! Be careful not to freeze.",
+	  "saloonrecipes.8": "The community has come together, every recipe sold goes to Community Center funds!",
+	  "saloonrecipes.9": "Pam owes us money again...",
+	  "saloonrecipes.10": "Hope you're not just hanging around. Please buy something!",
+	  "saloonrecipes.11": "I'm so grateful for Gus' help in opening this little shop!",
+	  "saloonrecipes.12": "I preferred to open this little shop at a time when I'm not helping Gus so much at the Tavern!",
+	  "saloonrecipes.13": "Welcome! What would you like to buy today? *giggle*",
+	
+	  "closedmessage.saloon": "The store is closed! ^ Opens only at 10:00 PM and closes at midnight. ^ ^ - Emily",
+	
+	// TOOLs AND WEAPONs
+   
+	  "woodensword.1": "Wooden Sword",
+	  "woodensword.2": "The famous wooden sword from the game Minecraft.",
+	  
+	  "prismarinesword.1": "Prismarine Sword",
+	  "prismarinesword.2": "A majestic sword adorned with shimmering aquamarines. Its light blue blades reflect the serenity of the sea, concealing a deep and inexhaustible power.",
+
+	  "ironsword.1": "Iron Sword",
+	  "ironsword.2": "The famous iron sword from the game Minecraft.",
+
+	  "golden_sword.1": "Golden Sword",
+	  "golden_sword.2": "The famous golden sword from the game Minecraft.",
+	  
+	  "emeraldsword.1": "Emerald Sword",
+	  "emeraldsword.2": "A gleaming sword adorned with precious emeralds. Its green blades radiate vibrant energy, imbued with the life force of nature.",
+	  
+	  "amethystsword.1": "Amethyst Sword",
+	  "amethystsword.2": "A powerful weapon with a shimmering blade that emits a mystical violet aura, wrapped in a high-quality leather handle.",
+	  
+	  "rubysword.1": "Ruby Sword",
+	  "rubysword.2": "A striking sword with a shimmering red blade that radiates fiery energy, wrapped in a handle adorned with intricate details.",
+	  
+	  "blossomsword.1": "Blossom Sword",
+	  "blossomsword.2": "An elegant sword adorned with pink petals on the blade, emitting a sweet fragrance.",
+
+	  "diamondsword.1": "Diamond Sword",
+	  "diamondsword.2": "The famous diamond sword from the game Minecraft.",
+	  
+	  "woodendagger.1": "Wooden Dagger",
+	  "woodendagger.2": "A common wooden dagger, similar to the wooden sword from Minecraft.",
+	  
+	  "prismarine_dagger.1": "Prismarine Dagger",
+	  "prismarine_dagger.2": "A serene dagger adorned with gleaming aquamarines. Its translucent blue blades reflect the tranquility of the ocean, concealing a surprising strength.",
+
+	  "irondagger.1": "Iron Dagger",
+	  "irondagger.2": "An uncommon iron dagger, similar to the iron sword from Minecraft.",
+
+	  "golden_dagger.1": "Golden Dagger",
+	  "golden_dagger.2": "A rare golden dagger, similar to the golden sword from Minecraft.",
+	  
+	  "emerald_dagger.1": "Emerald Dagger",
+	  "emerald_dagger.2": "A sharp dagger adorned with sparkling emeralds. Its green blades slice through the air with precision and grace, imbued with the power of nature.",
+	  
+	  "amethyst_dagger.1": "Amethyst Dagger",
+	  "amethyst_dagger.2": "An elegant dagger adorned with glistening amethysts. Its purple blades shimmer with mystical power, making it a swift and enchanting weapon.",
+	  
+	  "ruby_dagger.1": "Ruby Dagger",
+	  "ruby_dagger.2": "A fiery dagger adorned with gleaming rubies. Its red blades radiate intense energy, making it a fierce and powerful weapon.",
+	  
+	  "blossom_dagger.1": "Blossom Dagger",
+	  "blossom_dagger.2": "A graceful dagger adorned with colorful petals. Its slender, delicate blades exude a subtle fragrance, concealing its true lethal power.",
+	  
+	  "diamond_dagger.1": "Diamond Dagger",
+	  "diamond_dagger.2": "A super rare diamond dagger, similar to the diamond sword from Minecraft.",
+	  
+	// FOODs
+
+	  "popcorn.1": "Popcorn",
+	  "popcorn.2": "Kernels of corn popped until crispy and light. A classic and addictive snack, perfect for any occasion.",
+
+	  "piece_of_pizza.1": "Piece of Pizza",
+	  "piece_of_pizza.2": "A slice of freshly baked pizza, topped with melted cheese, fresh tomato sauce, and your favorite toppings. Perfect for a quick lunch or a delicious snack.",
+
+	  "donut.1": "Coffee Donut",
+	  "donut.2": "A soft and delicious donut, made with a light and airy dough, infused with the aroma of freshly ground coffee.",
+	  
+	  "onigiri.1": "Onigiri",
+	  "onigiri.2": "A simple and delicious Japanese rice ball. Perfect for a quick snack in the field!",
+	  
+	  "pretzel.1": "Pretzel",
+	  "pretzel.2": "A twisted German bread roll, sprinkled with sugar and honey. Perfect for a sweet and satisfying snack!",
+	  
+	  "trufflecookie.1": "Truffle Cookie",
+	  "trufflecookie.2": "A decadent cookie filled with rich, creamy truffle. Perfect for a sweet and indulgent treat!",
+	  
+	  "blueberrymuffin.1": "Blueberry Muffin",
+	  "blueberrymuffin.2": "A soft and sweet muffin filled with fresh blueberries. Perfect for a delicious snack or breakfast!",
+	  
+	  "blue_egg.name": "Blue Egg",
+	  "blue_egg.description": "A common egg from the Blue Chicken.",
+	  
+	  "big_blue_egg.name": "Big Blue Egg",
+	  "big_blue_egg.description": "A large common egg from the Blue Chicken.",
+	  
+	  "bluemayonnaise.name": "Blue Mayonnaise",
+	  "bluemayonnaise.description": "It looks spreadable.",
+	  
+	  "biggolden_egg.name": "Big Golden Egg",
+	  "biggolden_egg.description": "A large rare egg from the Golden Chicken.",
+	  
+	  "goldenmayonnaise.name": "Golden Mayonnaise",
+	  "goldenmayonnaise.description": "It looks spreadable.",
+	  
+	  "ostrichmayonnaise.name": "Ostrich Egg Mayonnaise",
+	  "ostrichmayonnaise.description": "It looks spreadable.",
+	  
+	// DESERT FESTIVAL FOODs
+	
+	  "earthymousse.name": "Earthy Mousse",
+	  "earthymousse.description": "A rich and creamy mousse with hints of cocoa and spices, offering a deep and comforting flavor. Perfect for a sophisticated and engaging dessert.",
+	  "sweetbeancake.name": "Sweet Bean Cake",
+	  "sweetbeancake.description": "A unique cake made with sweet beans, combining a soft texture with a surprising taste. Perfect for an exotic and delicious dessert.",
+	  "skullcavecasserole.name": "Skull Cave Casserole",
+	  "skullcavecasserole.description": "A delicious casserole with tender meat, fresh vegetables, and a rich sauce. Perfect for an intense and flavorful culinary experience.",
+	  "spicytacos.name": "Spicy Tacos",
+	  "spicytacos.description": "Feature seasoned meat, fresh salsa, crunchy vegetables, and a spicy sauce, all wrapped in warm tortillas.",
+	  "mountainchili.name": "Mountain Chili",
+	  "mountainchili.description": "A hearty chili with mountain herbs, tender beans, and spicy beef.",
+	  "crystalcake.name": "Crystal Cake",
+	  "crystalcake.description": "A delicate cake with a shimmering glaze and a light, airy texture.",
+	  "cavekebab.name": "Cave Kebab",
+	  "cavekebab.description": "Grilled meat skewers marinated in earthy spices and served with vegetables.",
+	  "hotlog.name": "Hot Log",
+	  "hotlog.description": "A warm, spiced pastry roll filled with sweet and savory ingredients.",
+	  "soursalad.name": "Sour Salad",
+	  "soursalad.description": "A zesty salad with mixed greens, citrus fruits, and a tangy vinaigrette.",
+	  "superfoodcake.name": "Superfood Cake",
+	  "superfoodcake.description": "A nutritious cake packed with superfoods like berries, nuts, and seeds.",
+	  "warriorsmoothie.name": "Warrior Smoothie",
+	  "warriorsmoothie.description": "A powerful smoothie blend of protein-rich fruits, vegetables, and a hint of spice.",
+	  "rumpledfruitskin.name": "Rumpled Fruit Skin",
+	  "rumpledfruitskin.description": "Dried and crinkled fruit skins with a sweet and tangy flavor.",
+	  "calicopizza.name": "Calico Pizza",
+	  "calicopizza.description": "A colorful pizza topped with assorted vegetables, cheeses, and herbs.",
+	  "stuffedmushrooms.name": "Stuffed Mushrooms",
+	  "stuffedmushrooms.description": "Mushrooms filled with a savory mix of cheese, garlic, and herbs.",
+	  "elfquesadilla.name": "Elf Quesadilla",
+	  "elfquesadilla.description": "A whimsical quesadilla with spinach, mushrooms, and melted cheese.",
+	  "nachosofthedesert.name": "Nachos of the Desert",
+	  "nachosofthedesert.description": "Crispy nachos topped with spicy beans, cheese, and jalapeños.",
+	  "cioppino.name": "Cioppino",
+	  "cioppino.description": "A rich seafood stew with tomatoes, wine, and a variety of shellfish.",
+	  "rainforestshrimp.name": "Rainforest Shrimp",
+	  "rainforestshrimp.description": "Juicy shrimp cooked with tropical fruits and a hint of spice.",
+	  "shrimpdonut.name": "Shrimp Donut",
+	  "shrimpdonut.description": "A savory donut filled with seasoned shrimp and herbs.",
+	  "smellofthesea.name": "Smell of the Sea",
+	  "smellofthesea.description": "A fragrant seafood dish with a mix of fish, shellfish, and ocean herbs.",
+	  "desertgumbo.name": "Desert Gumbo",
+	  "desertgumbo.description": "A hearty gumbo with spicy sausage, okra, and desert spices.",
+	  
+	// TV CHANNEL 74 - Livin' Off The Land
+	
+	  "silocapacity.tv.2x": "Winter's almost here. Make sure you're prepared to feed your animals hay over the winter, because they don't like going outside in the cold. Also, your grass won't keep growing after that first frost. Each silo can hold 480 pieces of hay, so make sure to do the math and figure out if you need to build any more!",
+	  "silocapacity.tv.4x": "Winter's almost here. Make sure you're prepared to feed your animals hay over the winter, because they don't like going outside in the cold. Also, your grass won't keep growing after that first frost. Each silo can hold 960 pieces of hay, so make sure to do the math and figure out if you need to build any more!",
+	  "silocapacity.tv.8x": "Winter's almost here. Make sure you're prepared to feed your animals hay over the winter, because they don't like going outside in the cold. Also, your grass won't keep growing after that first frost. Each silo can hold 1,920 pieces of hay, so make sure to do the math and figure out if you need to build any more!",
+	  "silocapacity.tv.16x": "Winter's almost here. Make sure you're prepared to feed your animals hay over the winter, because they don't like going outside in the cold. Also, your grass won't keep growing after that first frost. Each silo can hold 3,840 pieces of hay, so make sure to do the math and figure out if you need to build any more!",
+	  "silocapacity.tv.32x": "Winter's almost here. Make sure you're prepared to feed your animals hay over the winter, because they don't like going outside in the cold. Also, your grass won't keep growing after that first frost. Each silo can hold 7,680 pieces of hay, so make sure to do the math and figure out if you need to build any more!",
+	  "silocapacity.tv.64x": "Winter's almost here. Make sure you're prepared to feed your animals hay over the winter, because they don't like going outside in the cold. Also, your grass won't keep growing after that first frost. Each silo can hold 15,360 pieces of hay, so make sure to do the math and figure out if you need to build any more!",
+	  "silocapacity.tv.128x": "Winter's almost here. Make sure you're prepared to feed your animals hay over the winter, because they don't like going outside in the cold. Also, your grass won't keep growing after that first frost. Each silo can hold 30,720 pieces of hay, so make sure to do the math and figure out if you need to build any more!",
+	  "silocapacity.tv.256x": "Winter's almost here. Make sure you're prepared to feed your animals hay over the winter, because they don't like going outside in the cold. Also, your grass won't keep growing after that first frost. Each silo can hold 61,440 pieces of hay, so make sure to do the math and figure out if you need to build any more!",
+	  
+	// ANIMALs
+	
+	  "pusheencat.name": "Pusheen, The Cat",
+	  "shinyumbreoncat.name": "Shiny Umbreon",
+	  "umbreoncat.name": "Umbreon",
+	  "mimikyu.name": "Mimikyu",
+	  "alolanvulpix.name": "Alolan Vulpix",
+	  "togepi.name": "Togepi",
+	  "furret.name": "Furret",
+	  
+	// BLOSSOM ITEMs
+	
+	  "blossomcoin.name": "Blossom Coin",
+	  "blossomcoin.description": "A rare pink coin used as currency in a single shop in the Valley. Extremely hard to find, its soft glow makes it highly sought after.",
+	  "blossomsapling.name": "Heart Fruit Sapling",
+	  "blossomsapling.description": "The Heart Fruit sapling is a fruit tree sapling that grows into a mature tree in 28 days and produces one Heart Fruit per day during Spring.",
+	  "blossomfruit.name": "Heart Fruit",
+	  "blossomfruit.description": "A rare heart-shaped fruit, known for its intense sweetness and juiciness. It is said to give those who consume it a feeling of happiness and renewed vigor.",
+	  "blossompotion.name": "Blossom Potion",
+	  "blossompotion.description": "This potion is a magical blend of seasonal petals that restores energy and provides a calming, revitalizing sensation when consumed.",
+	  "blossomjuice.name": "Blossom Juice",
+	  "blossomjuice.description": "A blend containing all the most flavorful and fragrant flowers from across the Valley.",
+	  
+	// BLOSSOM MISSIONs
+	
+	  "blossom.sapling.title": "Blossom Coin Research",
+	  "blossom.sapling.text": "I have heard rumors of a mysterious Pink Coin. I require such a specimen for my research, and will reward handsomely as it is extremely difficult to find.",
+      "blossom.sapling.mail": "@, thank you for acquiring the Blossom Coins for my research. I have attached a sapling that should be able to reproduce the special fruits of this unique pink flower.^^   -M. Rasmodius, The Wizard",
+      "blossom.objective1": "Collect 10 Blossom Coins",
+      "blossom.objective2": "Deliver the 10 Blossom Coins to the Wizard.",
+	  "blossom.sapling.dialoguegift": "Yes.. yes.. Now I will begin my tests, now leave.",
+  
+      "blossom.coin.title": "A Friend in Need",
+      "blossom.coin.text": "I would like to crack open some Golden Coconuts myself, but they are very rare to find. I need someone to find them for me.",
+      "blossom.coin.mail": "Hi @, ^Thank you for getting the golden coconuts, here is a little gift for you! I hope you like it. ^ ^    - Your dear friend, Emily",
+      "coin.objective1": "Collect 3 Golden Coconuts for Emily.",
+      "coin.objective2": "Deliver the 3 Golden Coconuts to Emily.",
+	  "blossom.coin.dialoguegift": "Thank you for helping me, now I can crack them open thanks to you!",
+	  
+	  "blossomfruit.wizard.spring1.title": "Gratitude",
+	  "blossomfruit.wizard.spring1.text": "You have been a great help, thank you for that, please take this little gift.^ ^    - M. Rasmodius, The Wizard",
+	  
+	// TREEs
+	 
+	  "coconuttree.name": "Coconut Tree",
+	  "coconutsapling.name": "Coconut Sapling",
+	  "coconutsapling.description": "The Coconut Sapling is a fruit tree sapling that takes 28 days to grow into a mature tree and produces one Coconut per day during Spring, Summer, and Fall.",
+	  
+	  "goldencoconuttree.name": "Golden Coconut Tree",
+	  "goldencoconutsapling.name": "Golden Coconut Sapling",
+	  "goldencoconutsapling.description": "The Golden Coconut Sapling is a fruit tree sapling that takes 28 days to grow into a mature tree and produces one Golden Coconut per day during Summer.",
+	  
+	// TREEs MISSIONs
+	  
+	  "golden.title": "The Great Research",
+	  "coconut.golden.mail": "Hello @, ^ Thank you for acquiring the coconuts I requested! ^Take this unique Golden Coconut sapling that I have. I found it in my cupboard a few days ago while trying to organize everything. ^ ^       - Clint",
+	  "golden.text": "I would like someone to help me acquire Golden Coconuts for my research. I will pay very well.",
+	  "golden.objective1": "Collect 12 Golden Coconuts.",
+	  "golden.text1": "Deliver the 12 Golden Coconuts to Clint.",
+	  "golden.coconuts.dialoguegift": "Thank you for getting the Golden Coconuts for me.$1#$b#I hope it wasn't too much trouble..$2",
+	  
+	// MINI-QUESTs
+	
+	  "abigail.mission.mail.title": "Rock Candy",
+	  "abigail.mission.mail": "Hi @, ^  I would like some amethysts to make a good snack. I will pay well for them. ^ ^        - Abigail",
+	  
+	  "abigail.mission.name": "Rock like Candy",
+	  "abigail.mission.description": "Abigail wants you to bring her several amethysts.",
+	  "abigail.mission.item": "Bring Abigail 4 amethysts.",
+	  "abigail.mission.dialogue": "$1Thanks, these look delicious!",
+	  
+	  "wizard.mission.mail.title": "Quick Search for Prismatic Shard",
+	  "wizard.mission.mail": "Greetings @, ^  I would like you to bring me a Prismatic Shard for my routine research. I will pay you twice its value. ^ ^      - M. Rasmodius, the Wizard",
+	  
+	  "wizard.mission.name": "Prismatic Shard to Wizard",
+	  "wizard.mission.dialogue": "$0Ah, you've finally found the prismatic shard!#$b#This artifact is of immense value to my studies. Here is your well-deserved reward, along with my gratitude. May magic always guide your steps, young farmer.$1",
+	  "wizard.mission.description": "Wizard Rasmodius seeks a prismatic shard for his magical studies. Find it in the mines or through fishing for a reward of 4,000 gold.",
+	  "wizard.mission.item": "Bring Wizard a Prismatic Shard.",
+	  
+	  "leah.mission.mail.title": "Truffles for Leah",
+	  "leah.mission.mail": "Hi @, ^I would like your help to create a recipe called 'Truffle Cookie' ^But for that, I will need 3 of your truffles to start testing the recipe. ^ ^           - Leah",
+	  
+	  "leah.mission.name": "Truffles for Leah",
+	  "leah.mission.description": "Leah, the talented artist in the village, is looking for special ingredients to create a new gourmet recipe. She has heard about the exceptional quality of the truffles you can provide and would like to try them. Help Leah discover new flavors by delivering 3 fresh truffles to her.",
+	  "leah.mission.item": "Deliver 3 truffles to Leah",
+	  "leah.mission.dialogue": "$0Oh, you got the truffles! They're perfect!#$b#I can't wait to use them in my new recipe. Thank you so much for helping me. Here is your reward, as promised.$1",
+	  
+	  "haley.especial.mission.mail.title": "Something New for Haley",
+	  "haley.especial.mission.mail": "Hi dear,^I would like to taste something new... Something I have never tried before. I heard that you know what's good, and I would like you to help me with this. ^ ^          - Haley",
+	  
+	  "haley.especial.mission.name": "Something New for Haley",
+	  "haley.especial.mission.description": "Haley would like to try something different, something she has never tasted before, so you decided to bring her 5 Heart Fruits.",
+	  "haley.especial.mission.item": "Deliver 5 Heart Fruits to Haley",
+	  "haley.especial.mission.dialogue": "$13What's this? A heart-shaped fruit?#$b#$7That's strange, I didn't know there was something this beautiful...#$b#Well, thank you for bringing this fruit to me, @.$1",
+	  
+	// COMMUNITY CENTER UPDATE
+	
+	  "config.CommunityCenterAnvil.name": "Anvil",
+	  "config.CommunityCenterAnvil.description": "Allows Clint to work while he's at the Community Center.",
+	  "config.CommunityCenterFarmerStatistics.name": "Farmer Statistics",
+	  "config.CommunityCenterFarmerStatistics.description": "Allows you to view your farm statistics by interacting with an object in the Community Center.",
+	  "config.CommunityCenterBobbersMachine.name": "Bobbers Machine",
+	  "config.CommunityCenterBobbersMachine.description": "Adds a bobbers machine to the Community Center.",
+	  "config.CommunityCenterPrizeMachine.name": "Prize Machine",
+	  "config.CommunityCenterPrizeMachine.description": "Adds a prize machine to the Community Center.",
+	  "config.CommunityCenterKitchen.name": "Functional Kitchen",
+	  "config.CommunityCenterKitchen.description": "Makes the kitchen in the Community Center fully functional.",
+	  "config.CommunityCenterDyePot.name": "Functional Dye Pot",
+	  "config.CommunityCenterDyePot.description": "Allows you to dye your clothes at the Community Center.",
+	  "config.CommunityCenterJukebox.name": "Functional Jukebox",
+	  "config.CommunityCenterJukebox.description": "Adds a functional jukebox to the Community Center.",
+	  "config.CommunityCenterTailoringTable.name": "Functional Tailoring Table",
+	  "config.CommunityCenterTailoringTable.description": "Allows you to make clothes at the Community Center.",
+	  
+	// CUSTOM GREENHOUSE
+	  
+	  "config.NewCustomGreenhouse.name": "Custom Greenhouse",
+	  "config.NewCustomGreenhouse.description": "Changes the old greenhouse to a new one with a bonus area.",
+	  "greenhousecellar.message": "\"A new place to call home.\"",
+	  "furnace.message": "\"A merely illustrative furnace.\"",
+	  "clock.message": "\"An old clock, seems broken.\""
+
+}

@@ -1,0 +1,17 @@
+{
+    "config.Lantana_Disable.name": "和美人鱼兰塔娜关联的设定",
+    "config.Lantana_Disable.description": "使美人鱼兰塔娜及其关联的道具有效",
+    "config.Lantana_Disable.values.true": "true",
+    "config.Lantana_Disable.values.false": "false",
+
+    "config.PG.name": "青少年版本变更",
+    "config.PG.description": "青少年版本会将美人鱼兰塔娜的比基尼更换为裙子（我并没有单独翻译青少年版的文字内容，所以这个开关不会影响文字内容）",
+    "config.PG.values.true": "true",
+    "config.PG.values.false": "false",
+
+    "config.Lantana_Wedding.name": "美人鱼兰塔娜参加婚礼",
+    "config.Lantana_Wedding.description": "让美人鱼兰塔娜和其他镇民一样在婚礼中登场",
+    "config.Lantana_Wedding.values.true": "true",
+    "config.Lantana_Wedding.values.false": "false",
+
+}
