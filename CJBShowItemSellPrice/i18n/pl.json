@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 ﻿{
     "labels.single-price": "Pojedynczo",
     "labels.stack-price": "Całość"
 }
+=======
+﻿{
+    "labels.single-price": "Pojedynczo",
+    "labels.stack-price": "Całość"
+}
+>>>>>>> 95e6386c250dcacf4ec2c1559996acda988d940e

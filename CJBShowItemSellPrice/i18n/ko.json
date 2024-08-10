@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 ﻿{
     "labels.single-price": "단일",
     "labels.stack-price": "묶음"
 }
+=======
+﻿{
+    "labels.single-price": "단일",
+    "labels.stack-price": "묶음"
+}
+>>>>>>> 95e6386c250dcacf4ec2c1559996acda988d940e

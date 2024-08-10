@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 ﻿{
     "labels.single-price": "ชิ้นเดียว",
     "labels.stack-price": "ทั้งหมด"
 }
+=======
+﻿{
+    "labels.single-price": "ชิ้นเดียว",
+    "labels.stack-price": "ทั้งหมด"
+}
+>>>>>>> 95e6386c250dcacf4ec2c1559996acda988d940e

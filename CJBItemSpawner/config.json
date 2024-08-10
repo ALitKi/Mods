@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 {
   "ShowMenuKey": "I",
   "ReclaimPriceInMenuTrashCan": true,
   "HideCategories": []
+=======
+{
+  "ShowMenuKey": "I",
+  "ReclaimPriceInMenuTrashCan": true,
+  "HideCategories": []
+>>>>>>> 95e6386c250dcacf4ec2c1559996acda988d940e
 }

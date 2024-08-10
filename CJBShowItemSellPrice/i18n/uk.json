@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 ﻿{
     "labels.single-price": "Одиниця",
     "labels.stack-price": "Усе разом"
 }
+=======
+﻿{
+    "labels.single-price": "Одиниця",
+    "labels.stack-price": "Усе разом"
+}
+>>>>>>> 95e6386c250dcacf4ec2c1559996acda988d940e

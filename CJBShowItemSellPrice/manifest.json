@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿{
     "Name": "CJB Show Item Sell Price",
     "Author": "CJBok and Pathoschild",
@@ -8,3 +9,15 @@
     "MinimumApiVersion": "4.0.0",
     "UpdateKeys": [ "Nexus:5" ]
 }
+=======
+﻿{
+    "Name": "CJB Show Item Sell Price",
+    "Author": "CJBok and Pathoschild",
+    "Version": "1.9.18",
+    "Description": "Show item sell price in your inventory!",
+    "UniqueID": "CJBok.ShowItemSellPrice",
+    "EntryDll": "CJBShowItemSellPrice.dll",
+    "MinimumApiVersion": "4.0.0",
+    "UpdateKeys": [ "Nexus:5" ]
+}
+>>>>>>> 95e6386c250dcacf4ec2c1559996acda988d940e
